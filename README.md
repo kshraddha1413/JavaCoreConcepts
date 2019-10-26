@@ -24,9 +24,11 @@ To create CONSTANT
   
   **Final class**
    The class cannot be subclassed. Whenever we declare any class as final, it means that we can’t extend that class or that class can’t be extended or we can’t make subclass of that class.
+   
 **Final method**
  The method cannot be overridden by a subclass. Whenever we declare any method as final, then it means that we can’t override that method.
 * Note* : If a class is declared as final then by default all of the methods present in that class are automatically final but variables are not.
+
 **finally**
 The finally keyword is used in association with a try/catch block and guarantees that a section of code will be executed, even if an exception is thrown. The finally block will be executed after the try and catch blocks, but before control transfers back to its origin.
 
