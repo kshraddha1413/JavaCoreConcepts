@@ -32,7 +32,7 @@ To create CONSTANT
 **finally**
 The finally keyword is used in association with a try/catch block and guarantees that a section of code will be executed, even if an exception is thrown. The finally block will be executed after the try and catch blocks, but before control transfers back to its origin.
 
-**Package**
-a group of interrelaed classes and interfaces.
+****Package****
+A group of interrelaed classes and interfaces.
 
 ![alt text](package.PNG)
