@@ -9,4 +9,4 @@ int x =10
 ```
 *Note- note here*
 
-![alt text](img1.png)
+![alt text](img1.PNG)
