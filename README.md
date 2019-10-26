@@ -20,9 +20,7 @@ To create CONSTANT
 
 
 3.Initialize inside a static block : We can also initialize a final static variable inside a static block because we should initialize a final static variable before class and we know that static block is executed before main() method.
-
-
-          Apart from the above mentioned methods, if we try to initialize a final static variable anywhere else then we will get compile time error.
+  Apart from the above mentioned methods, if we try to initialize a final static variable anywhere else then we will get compile time error.
 
 
 
