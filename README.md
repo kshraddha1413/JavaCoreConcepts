@@ -48,4 +48,14 @@ Making searching/locating and usage of classes, interfaces, enumerations and ann
 
 Providing controlled access: protected and default have package level access control. A protected member is accessible by classes in the same package and its subclasses. A default member (without any access specifier) is accessible by classes in the same package only.
 
+***Access Modifiers***
+
+The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class. We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.
+
+There are four types of Java access modifiers:
+
+![alt text](modifiers.PNG)
+
+
+
 
