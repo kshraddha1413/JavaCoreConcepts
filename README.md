@@ -58,4 +58,4 @@ There are four types of Java access modifiers:
 
 
 
-
+**If you make any class constructor private, you cannot create the instance of that class from outside the class.**
