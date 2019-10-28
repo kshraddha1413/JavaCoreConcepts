@@ -70,6 +70,27 @@ An exception is an unwanted or unexpected event, which occurs during the executi
 
 
 
+**Types of Exception**
+1) BuiltIn
+2) Userdefined
+
+Built-in exceptions are the exceptions which are available in Java libraries.
+e.g. ArithmeticException
+ArrayIndexOutOfBoundsException etc.
+
+Sometimes, the built-in exceptions in Java are not able to describe a certain situation. In such cases, user can also create exceptions which are called ‘user-defined Exceptions’. user defined exceptions typically extend Exception class
+
+Java exception handling is managed via five keywords: try, catch, throw, throws, and finally. 
+
+**THROW and THROWS**
+The throw keyword in Java is used to explicitly throw an exception from a method or any block of code. We can throw either checked or unchecked exception. The throw keyword is mainly used to throw custom exceptions.
+
+throws is a keyword in Java which is used in the signature of method to indicate that this method might throw one of the listed type exceptions. The caller to these methods has to handle the exception using a try-catch block.
+
+
+
+
+
 
 
 
