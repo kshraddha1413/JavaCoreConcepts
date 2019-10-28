@@ -59,3 +59,28 @@ There are four types of Java access modifiers:
 
 
 **If you make any class constructor private, you cannot create the instance of that class from outside the class.**
+
+EXCEPTIONS
+=====
+
+An exception is an unwanted or unexpected event, which occurs during the execution of a program i.e at run time, that disrupts the normal flow of the program’s instructions.
+
+*Difference between ERROR and EXCEPTION*
+![alt text](Difference.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
