@@ -200,6 +200,14 @@ Since ArrayList can’t be created for primitive data types, members of ArrayLis
 In array, it depends whether the arrays is of primitive type or object type. In case of primitive types, actual values are contiguous locations, but in case of objects, allocation is similar to ArrayList.
 
 
+**Generics**
+Programs that uses Generics has got many benefits over non-generic code.
+1)Code Reuse: We can write a method/class/interface once and use for any type we want.
+2)Type Safety : Generics make errors to appear compile time than at run time (It’s always better to know problems in your code at compile time rather than making your code fail at run time). Suppose you want to create an ArrayList that store name of students and if by mistake programmer adds an integer object instead of string, compiler allows it. But, when we retrieve this data from ArrayList, it causes problems at runtime.
+
+https://www.geeksforgeeks.org/generics-in-java/
+
+
 
 
 
