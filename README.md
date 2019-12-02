@@ -134,11 +134,38 @@ Break - after breakcontrol goes to the end of the loop
 2) The enhanced for loop can only iterate in incremental order. we cannot configure it to go in decrement. i.e in for loop we can write i-- in step counter to go backward.
 
 **String**
+String: String is a sequence of characters. In java, objects of String are immutable which means a constant and cannot be changed once created.
+Creating a String
+
+There are two ways to create string in Java:
+
+String literal
+String s = “GeeksforGeeks”;
+Using new keyword
+String s = new String (“GeeksforGeeks”);
+
+**StringBuffer:**
+StringBuffer is a peer class of String that provides much of the functionality of strings. String represents fixed-length, immutable character sequences while StringBuffer represents growable and writable character sequences.
+
+StringBuffer s = new StringBuffer("GeeksforGeeks");
+
+**StringBuilder:**
+The StringBuilder in Java represents a mutable sequence of characters. Since the String Class in Java creates and immutable sequence of characters, the StringBuilder class provides an alternate to String Class, as it creates a mutable sequence of characters.
+Syntax:
+
+StringBuilder str = new StringBuilder();
+str.append("GFG");
+
+**Diffrence**
 stringBuffer peer class of String.StringBuffer is growable and writable character sequence
 String class objects are immutable and it is fixed length.
 StringBuilder is same as StringBuffer for both objects are mutable.
 stringBuilder and String buffer use in multithreading and StringBuffer has synchonization but string builder not have syntronization
-to use object of StringBuilder is not safe
+to use object of StringBuilder is not safe.
+**String Mathods**
+https://www.geeksforgeeks.org/string-class-in-java/
+
+
 
 
 
