@@ -133,6 +133,13 @@ Break - after breakcontrol goes to the end of the loop
 
 2) The enhanced for loop can only iterate in incremental order. we cannot configure it to go in decrement. i.e in for loop we can write i-- in step counter to go backward.
 
+**String**
+stringBuffer peer class of String.StringBuffer is growable and writable character sequence
+String class objects are immutable and it is fixed length.
+StringBuilder is same as StringBuffer for both objects are mutable.
+stringBuilder and String buffer use in multithreading and StringBuffer has synchonization but string builder not have syntronization
+to use object of StringBuilder is not safe
+
 
 
 
