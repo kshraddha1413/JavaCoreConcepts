@@ -95,6 +95,47 @@ https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
 **Association , Composition , Aggrigation**
 https://www.geeksforgeeks.org/association-composition-aggregation-java/
 
+Java Variable
+=====
+https://www.javatpoint.com/java-variables
+
+A variable is a container which holds the value while the java program is executed. A variable is assigned with a datatype.
+Variable is a name of memory location. There are three types of variables in java: local, instance and static.
+There are two types of data types in java: primitive and non-primitive.
+
+There are three types of variables in java:
+**local variable
+**instance variable
+**static variable
+
+1) Local Variable
+A variable declared inside the body of the method is called local variable. You can use this variable only within that method and the other methods in the class aren't even aware that the variable exists.
+A local variable cannot be defined with "static" keyword.
+
+2) Instance Variable
+A variable declared inside the class but outside the body of the method, is called instance variable. It is not declared as static.
+It is called instance variable because its value is instance specific and is not shared among instances.
+
+3) Static variable
+A variable which is declared as static is called static variable. It cannot be local. You can create a single copy of static variable and share among all the instances of the class. Memory allocation for static variable happens only once when the class is loaded in the memory.
+
+**JAVA IDENTIFIERS**
+In programming languages, identifiers are used for identification purpose. In Java, an identifier can be a class name, method name, variable name or a label. 
+
+**Keywords or Reserved words**
+are the words in a language that are used for some internal process or represent some predefined actions. These words are therefore not allowed to use as a variable names or objects. Doing this will result into a compile time error.
+
+**Continue - after continue control goes to the start of the loop
+Break - after breakcontrol goes to the end of the loop
+
+**Diffrence between For Each and for loop**
+1) The enhanced for loop executes in sequence. i.e  the counter is always increased by one, where as in for loop you can change the step as per your wish e.g doing something like i=i+2; to loop every second element in an array or collection.
+
+2) The enhanced for loop can only iterate in incremental order. we cannot configure it to go in decrement. i.e in for loop we can write i-- in step counter to go backward.
+
+
+
+
 
 
 
