@@ -1,6 +1,24 @@
 Java Core Concepts
 =====
+**Keyword** : 
+are the words which has special meaning in java which we can't use as identifiers.
+e.g- abstract,public ,int etc
+**Expression** :
+   it is build with operator,variable,methid invocation e.g b+1,
+**Statement**
+It consist of exression or complete unit of expression
+e.g. a= b+1;
+                  **Types of Statement**
+                  1)Declation statement
+                  2)Expression statement
+                  3)control flow statement
+                  
+**Method**
+A block of code which perform certain actions also called functions.it only runs when it is called.To reuse the code mathods are created.
+             
 
+
+   
 
 
 **Static variable**
@@ -164,6 +182,25 @@ stringBuilder and String buffer use in multithreading and StringBuffer has synch
 to use object of StringBuilder is not safe.
 **String Mathods**
 https://www.geeksforgeeks.org/string-class-in-java/
+
+
+**Constructors**
+is method which has same name as class name whenever object created compiler first execte constructor . It is used to initialize the variables. if constructor is not availble in class java compiler ivokes default construtor.
+Types:
+1)Default
+2)Parametarised
+
+**Difference between array and arrayList**
+Array is a fixed size data structure while ArrayList is not. One need not to mention the size of Arraylist while creating its object. Even if we specify some initial capacity, we can add more elements.
+
+Array can contain both primitive data types as well as objects of a class depending on the definition of the array. However, ArrayList only supports object entries, not the primitive data types.
+Note: When we do arraylist.add(1); : it converts the primitive int data type into an Integer object.
+
+Since ArrayList can’t be created for primitive data types, members of ArrayList are always references to objects at different memory locations (See this for details). Therefore in ArrayList, the actual objects are never stored at contiguous locations. References of the actual objects are stored at contiguous locations.
+In array, it depends whether the arrays is of primitive type or object type. In case of primitive types, actual values are contiguous locations, but in case of objects, allocation is similar to ArrayList.
+
+
+
 
 
 
