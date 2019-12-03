@@ -29,6 +29,10 @@ static variable is also called as class variable.compiler always execute static 
 **Final Variable**
 If we declare any variable as final, we can’t modify its contents since it is final, and if we modify it then we get Compile Time Error.
 
+**Final variable-----------------To create constant
+Final class----------------------To prevent inheritance
+Final method---------------------To prevent overriding
+
 **Static final variarable**
 To create CONSTANT 
 1.Initialization of variable Mandatory : If the static variable declared as final, then we have to perform initialization explicitly whether we are using it or not and JVM won’t provide any default value for the final static variable.
@@ -42,6 +46,9 @@ To create CONSTANT
   
   **Final class**
    The class cannot be subclassed. Whenever we declare any class as final, it means that we can’t extend that class or that class can’t be extended or we can’t make subclass of that class.
+   
+   *can we create object of final class
+   Definitely, you can do that. The 'final' keyword in sense of a class makes it uninheritable. You can't extend it, nor override its methods. Sometimes you do this in case of classes where extending it is not desirable - like String. Imagine the havoc if someone extends it & overrides its useful methods to do something not useful. It is not desirable.
    
 **Final method**
  The method cannot be overridden by a subclass. Whenever we declare any method as final, then it means that we can’t override that method.
@@ -209,6 +216,10 @@ Programs that uses Generics has got many benefits over non-generic code.
 2)Type Safety : Generics make errors to appear compile time than at run time (It’s always better to know problems in your code at compile time rather than making your code fail at run time). Suppose you want to create an ArrayList that store name of students and if by mistake programmer adds an integer object instead of string, compiler allows it. But, when we retrieve this data from ArrayList, it causes problems at runtime.
 
 https://www.geeksforgeeks.org/generics-in-java/
+
+
+**Static vs Dynamic binding**
+https://www.geeksforgeeks.org/static-vs-dynamic-binding-in-java/
 
 
 
